@@ -6,8 +6,9 @@
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
-    // Positioning context for the mobile navigation icon
-    position: relative;
+    position: fixed;
+    width: 100%;
+    background-color: $background-color
 }
 
 .site-title {
@@ -168,7 +169,7 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit + $site-header-offset 0;
 }
 
 .page-heading {
